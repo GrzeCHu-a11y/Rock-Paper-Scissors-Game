@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="items">
+                <div class="items__item" id="paper"><h1 class="items__item__h1">PAPER</h1></div>
+                <div class="items__item" id="rock"><h1 class="items__item__h1">ROCK</h1></div>
+                <div class="items__item" id="scissors"><h1 class="items__item__h1">SCISSORS</h1></div>
+            </div>
+           <div class="top-h1-container">
+            <h1 class="chosen-item-h1">choose: paper, rock or scissors</h1>
+           </div>
+        </div>
+        <div class="history">
+            <h3 class="h3-history">history:</h3>
+            <div class="games-history"></div>
+        </div>
+        <div class="bottom">
+            <div class="buttons-container">
+                <button class="button" id="start-button">START GAME!</button>
+                <button class="button" id="restart-button">RESTART</button>
+            </div>
+            <div class="info">
+                <h2 class="info-h2">Result:</h2>
+                <div class="results">
+                    <div class="result"><h2 class="result__h2">Computer</h2></div>
+                    <div class="result"><h2 class="result__h2" id="game-result-sign"></h2></div>
+                    <div class="result"><h2 class="result__h2">You</h2></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h1>chose item</h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
